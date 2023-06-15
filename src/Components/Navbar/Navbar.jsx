@@ -5,9 +5,9 @@ const NavBar = () => {
     <div>
       <nav className="nav-container">
         <ul className="nav-ul">
-          <li className="li">Home</li>
-          <li className="li">About</li>
-          <li className="li">Contact</li>
+          <li className="li">Nuestros Productos</li>
+          <li className="li">Mesas</li>
+          <li className="li">Sillas</li>
         </ul>
       </nav>
     </div>
