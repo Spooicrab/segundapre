@@ -1,0 +1,10 @@
+.cats {
+  background-color: burlywood;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.tarjetas {
+  margin: 20 px;
+  padding: 20px;
+}
