@@ -18,7 +18,6 @@ function App() {
           <Route path="/category1" element={<CategoryPage1 />} />
           <Route path="/category2" element={<CategoryPage2 />} />
         </Routes>
-        <Footer />
       </div>
     </Router>
   );
