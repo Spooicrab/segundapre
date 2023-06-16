@@ -1,16 +1,3 @@
-/* import React from "react";
-
-const CardDetail = ({ items }) => {
-  return (
-    <div>
-      <img src={items.url} alt="producto en detalle" />
-    </div>
-  );
-};
-
-export default CardDetail;
- */
-
 import * as React from "react";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";

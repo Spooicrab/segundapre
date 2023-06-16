@@ -1,7 +1,19 @@
 import React from "react";
+import Cardcat from "../../Components/Card/Card";
+import test from "../../Components/ItemListContainer/test.json";
 
-const CategoryPage1 = () => {
-  return <div>aboutpage</div>;
+const ItemlistContainer = () => {
+  const filteredItems = test.filter((item) => item.category === "gaseosa");
+
+  return (
+    <div className="card">
+      {filteredItems.map((item) => (
+        <div className="tarjetas" key={item.id}>
+          <Cardcat items={item} />
+        </div>
+      ))}
+    </div>
+  );
 };
 
-export default CategoryPage1;
+export default ItemlistContainer;
