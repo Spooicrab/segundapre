@@ -1,9 +1,12 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+//-------------------- Components --------------------------
 import NavBar from "./Components/Navbar/Navbar";
 import Header from "./Components/Header/Header";
 import ItemlistContainer from "./Components/ItemListContainer/ItemListContainer";
 
+//////////////////
 function App() {
   return (
     <div className="App">
