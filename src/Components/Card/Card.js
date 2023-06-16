@@ -1,14 +1,13 @@
 import * as React from "react";
-import { 
+import {
   Card,
   CardContent,
   CardMedia,
   Typography,
-  Button, 
-  CardActionArea, 
-  CardActions 
-} from '@mui/material'
-
+  Button,
+  CardActionArea,
+  CardActions,
+} from "@mui/material";
 
 /////////////////////////////////////////////
 export default function Cardcat({ items }) {
@@ -18,7 +17,7 @@ export default function Cardcat({ items }) {
         <CardMedia component="img" height="140" image={items.url} alt="" />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-            id: {items.id}
+            {items.name} || Precio: {items.price}
           </Typography>
         </CardContent>
       </CardActionArea>

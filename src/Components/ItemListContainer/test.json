@@ -1,62 +1,72 @@
 [
   {
     "id": "1",
-    "url": "https://cdn2.thecatapi.com/images/3lv.jpg",
-    "price": "$713",
+    "url": "https://cloudfront-us-east-1.images.arcpublishing.com/infobae/IEJBQTSSIN2NMANQTBRMI7VZFE.jpg",
+    "price": "$700",
+    "name": "cafe",
     "stock": 1004
   },
   {
     "id": "2",
-    "url": "https://cdn2.thecatapi.com/images/51k.gif",
+    "url": "https://http2.mlstatic.com/D_NQ_NP_983103-MLA43139369216_082020-O.webp",
     "price": "$503",
+    "name": "te",
     "stock": 100
   },
   {
     "id": "3",
-    "url": "https://cdn2.thecatapi.com/images/59d.jpg",
+    "url": "https://1.bp.blogspot.com/-4udc-tF310k/YFJJLn4MQgI/AAAAAAAASAc/umso4irxOxMjOPpo-Iay_BNw245mEwCdQCNcBGAsYHQ/s1236/WhatsApp%2BImage%2B2021-03-17%2Bat%2B11.16.24%2BAM.jpeg",
     "price": "$550",
-    "stock": 100
+    "stock": 100,
+    "name": "mate"
   },
   {
     "id": "4",
-    "url": "https://cdn2.thecatapi.com/images/6ut.jpg",
+    "url": "https://azsstatic.com/308/conversions/marcas-de-agua-square.jpg",
     "price": "$635",
-    "stock": 1004
+    "stock": 1004,
+    "name": "agua"
   },
   {
     "id": "5",
-    "url": "https://cdn2.thecatapi.com/images/79f.jpg",
+    "url": "https://eldiariony.com/wp-content/uploads/sites/2/2023/04/coca-cola-hojas-de-coca-nueva-jersey-shutterstock_229297042.jpg?quality=75&strip=all&w=1200",
     "price": "$554",
-    "stock": 100
+    "stock": 100,
+    "name": "coca"
   },
   {
     "id": "6",
-    "url": "https://cdn2.thecatapi.com/images/b8n.jpg",
+    "url": "https://alberdisa.vteximg.com.br/arquivos/ids/165075-1000-1000/Gaseosa-Sprite-x-2250-Cc.jpg?v=637515009521200000",
     "price": "$803",
-    "stock": 100
+    "stock": 100,
+    "name": "sprite"
   },
   {
     "id": "7",
-    "url": "https://cdn2.thecatapi.com/images/c99.jpg",
+    "url": "https://carrefourar.vtexassets.com/arquivos/ids/270909/7790639001976_01.jpg?v=638085258215070000",
     "price": "$806",
-    "stock": 100
+    "stock": 100,
+    "name": "cola"
   },
   {
     "id": "8",
-    "url": "https://cdn2.thecatapi.com/images/e8c.jpg",
+    "url": "https://arjosimarprod.vteximg.com.br/arquivos/ids/162402-1000-1000/Gaseosa-Tonica-Cunnington-2-25-lt-1-5170.jpg?v=637456312310300000",
     "price": "$322",
-    "stock": 100
+    "stock": 100,
+    "name": "tonic"
   },
   {
     "id": "9",
-    "url": "https://cdn2.thecatapi.com/images/MTY2Nzg4MQ.jpg",
+    "url": "https://statics.dinoonline.com.ar/imagenes/full_600x600_ma/3080545_f.jpg",
     "price": "$743",
-    "stock": 100
+    "stock": 100,
+    "name": "limon"
   },
   {
     "id": "10",
-    "url": "https://cdn2.thecatapi.com/images/MTc3NDU2MQ.jpg",
+    "url": "https://atomoconviene.com/atomo-ecommerce/59036-large_default/fernet-branca---750-cc--.jpg",
     "price": "$493",
-    "stock": 100
+    "stock": 100,
+    "name": "fernet"
   }
 ]

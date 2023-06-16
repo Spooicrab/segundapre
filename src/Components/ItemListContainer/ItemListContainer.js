@@ -7,17 +7,9 @@ import Cardcat from "../Card/Card";
 //-------------------- Assets --------------------------
 import test from "./test.json";
 
-
 /////////////////////////////////
 const ItemlistContainer = () => {
   const [items, setItems] = useState([]);
-
-  // useEffect(() => {
-  //   axios.get(test).then((response) => {
-  //     console.log(response.data);
-  //     setItems(response.data);
-  //   });
-  // }, []);
 
   return (
     <div className="cats">

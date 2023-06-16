@@ -2,7 +2,7 @@ import React from "react";
 import "./Header.css";
 
 //-------------------- Assets --------------------------
-import imagen from "./BIAccIA.jpg";
+import imagen from "./producto-e1572738586616-800x400.jpg";
 
 ///////////////////////
 const Header = () => {
@@ -10,7 +10,7 @@ const Header = () => {
     <div>
       <div className="Header">
         <img src={imagen} alt="Capicat" width={900}></img>
-        <h1> Refugio de Gatos</h1>
+        <h1>Mercado</h1>
       </div>
     </div>
   );
