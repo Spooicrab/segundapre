@@ -8,7 +8,7 @@ import {
   CardActionArea,
   CardActions,
 } from "@mui/material";
-
+import { Link } from "react-router-dom";
 /////////////////////////////////////////////
 export default function Cardcat({ items }) {
   return (
@@ -22,9 +22,11 @@ export default function Cardcat({ items }) {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary">
-          Ver
-        </Button>
+        <Link to={`detail/${items.id}`}>
+          <Button size="small" color="primary">
+            Ver
+          </Button>
+        </Link>
       </CardActions>
     </Card>
   );
