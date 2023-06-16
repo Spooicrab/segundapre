@@ -5,7 +5,7 @@ import HomePage from "./Pages/HomePage/Home";
 import Detailpage from "./Pages/ItemDetail/Detailpage";
 import CategoryPage1 from "./Pages/Categorys/CategoryPage";
 import CategoryPage2 from "./Pages/Categorys/CategoryPage2";
-import Footer from "./Components/footer/footer";
+
 //////////////////
 function App() {
   return (

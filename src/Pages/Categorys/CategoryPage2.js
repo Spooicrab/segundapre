@@ -2,7 +2,7 @@ import React from "react";
 import Cardcat from "../../Components/Card/Card";
 import test from "../../Components/ItemListContainer/test.json";
 
-const ItemlistContainer = () => {
+const ItemlistContainer2 = () => {
   const filteredItems = test.filter((item) => item.category === "otro");
 
   return (
@@ -16,4 +16,4 @@ const ItemlistContainer = () => {
   );
 };
 
-export default ItemlistContainer;
+export default ItemlistContainer2;
