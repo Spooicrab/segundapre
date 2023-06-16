@@ -1,33 +1,32 @@
 import * as React from "react";
-import {
-  Card,
-  CardContent,
-  CardMedia,
-  Typography,
-  Button,
-  CardActionArea,
-  CardActions,
-} from "@mui/material";
+import Card from "@mui/material/Card";
+import CardContent from "@mui/material/CardContent";
+import CardMedia from "@mui/material/CardMedia";
+import Typography from "@mui/material/Typography";
+import { CardActionArea } from "@mui/material";
 import { Link } from "react-router-dom";
-/////////////////////////////////////////////
-export default function Cardcat({ items }) {
+
+export default function CardHOME({ items }) {
   return (
-    <Card sx={{ maxWidth: 345 }}>
-      <CardActionArea>
-        <CardMedia component="img" height="140" image={items.url} alt="" />
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
-            {items.name} || Precio: {items.price}
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-      <CardActions>
-        <Link to={`detail/${items.id}`}>
-          <Button size="small" color="primary">
-            Ver
-          </Button>
-        </Link>
-      </CardActions>
-    </Card>
+    <Link to={`detail/${items.id}`}>
+      <Card sx={{ maxWidth: 345 }}>
+        <CardActionArea>
+          <CardMedia
+            component="img"
+            image={items.url}
+            alt="producto"
+            height="340"
+          />
+          <CardContent>
+            <Typography gutterBottom variant="h5" component="div">
+              {items.name}
+            </Typography>
+            <Typography variant="body2" color="text.secondary">
+              {items.price}
+            </Typography>
+          </CardContent>
+        </CardActionArea>
+      </Card>
+    </Link>
   );
 }

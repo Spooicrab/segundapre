@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./ItemListContainer.css";
 import Cardcat from "../Card/Card";
 import test from "./test.json";
