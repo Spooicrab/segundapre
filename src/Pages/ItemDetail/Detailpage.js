@@ -14,16 +14,3 @@ const DetailPage = () => {
 };
 
 export default DetailPage;
-
-/* useEffect(() => {
-  setChar(test);
-}, []);
-
-const Detailpage = () => {
-  let { id } = useParams;
-  const filteredData = test.filter((item) => item.id === id);
-};
-
-export default Detailpage;
-s;
- */
