@@ -5,18 +5,8 @@ import { useParams } from "react-router-dom";
 /////////////////////////////////
 
 const Detailpage = () => {
-  let { id } = useParams();
-  return (
-    <div className="cats">
-      {test.map((id) => {
-        return (
-          <div className="tarjetas" key={id}>
-            <Cardcat items={id} />
-          </div>
-        );
-      })}
-    </div>
-  );
+  let { id } = useParams;
+  const filteredData = test.filter((item) => item.id === id);
 };
 
 export default Detailpage;
