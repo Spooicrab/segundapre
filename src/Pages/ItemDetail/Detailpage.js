@@ -8,8 +8,6 @@ import CardDetail from "../../Components/Card/CardDetail";
 const DetailPage = () => {
   const { id } = useParams();
   const items = test.find((items) => items.id === id);
-  console.log(id);
-  console.log(items);
   return <CardDetail items={items} />;
 };
 
